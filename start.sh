@@ -1,4 +1,4 @@
 #!/bin/bash
 
-nfc-mfclassic W a carte-originale.dmp carte-chinoise.dmp
+nfc-mfclassic w a carte-originale.dmp carte-chinoise.dmp
 
