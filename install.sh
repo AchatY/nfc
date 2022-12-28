@@ -1,7 +1,9 @@
 #!/bin/bash
 
-wget -O kali-archive-keyring_2020.2_all.deb https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2020.2_all.deb
-dpkg -i kali-archive-keyring_2020.2_all.deb
+wget http://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
+# install
+sudo dpkg -i kali-archive-keyring_2022.1_all.deb
+
 apt update
 apt full-upgrade
 
