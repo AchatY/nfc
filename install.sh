@@ -2,8 +2,6 @@
 
 wget --no-check-certificate -q -O - https://archive.kali.org/archive-key.asc  | apt-key add
 
-apt update
-
 apt update --fix-missing
 
-apt-get install libnfc-examples
+# apt-get install libnfc-examples
