@@ -9,6 +9,4 @@ rm kali-archive-keyring_2022.1_all.deb
 # update
 apt-get update
 #
-apt-get install libusb-dev
-apt-get install libnfc-bin libnfc-dev libnfc5
 apt-get install libnfc-examples
