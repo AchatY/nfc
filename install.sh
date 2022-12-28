@@ -1,7 +1,9 @@
 #!/bin/bash
 
-wget --no-check-certificate -q -O - https://archive.kali.org/archive-key.asc  | apt-key add
+apt-get update
 
-# apt-get update --fix-missing
+modprobe -r pn533_usb
+modprobe -r pn533
+modprobe -r nfc
 
-# apt-get install libnfc-examples
+apt-get install libnfc-examples
